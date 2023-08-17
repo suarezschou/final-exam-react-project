@@ -23,7 +23,7 @@ export default function Indexpage({merchant, categories, products}){
     return (
         <React.Fragment>
             <h1> {merchant.business_name} </h1>
-
+            <h1> Andre Schou's Web Shop </h1>
             <h3>
                 <Link legacyBehavior href="/categories">
                     <a>Categories</a>
