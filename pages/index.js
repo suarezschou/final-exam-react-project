@@ -1,4 +1,4 @@
-
+import'./_app'
 import commerce from '../lib/commerce'
 import ProductList from '../components/productList';
 import CategoryList from '../components/categoryList';
@@ -23,15 +23,19 @@ export default function Indexpage({merchant, categories, products}){
     return (
         <React.Fragment>
             <h1> {merchant.business_name} </h1>
+            <h1 className="text-xl text-blue-600"> Andre Schou's Web shop </h1>
 
-            <h3>
+            <h3 className='text-lg text-blue-600'>
                 <Link legacyBehavior href="/categories">
                     <a>Categories</a>
                 </Link>
             </h3>
-            <CategoryList categories={categories} />
 
-            <h3>
+            <h4 className='text-green-500'>
+            <CategoryList categories={categories} />
+            </h4>
+
+            <h3 className='text-lg text-blue-600'>
                 <Link legacyBehavior href="/products">
                     <a>Products</a>
                 </Link>

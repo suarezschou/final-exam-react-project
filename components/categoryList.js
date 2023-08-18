@@ -5,7 +5,7 @@ export default function CategoryList({categories}){
     if(!categories) return null;
 
     return(
-        <ul>
+        <ul className="grid gap-4 grid-cols-2 text-green-500">
             {categories.map((category) =>(
                 <li key={category.slug}>
                     <Link legacyBehavior href={`/categories/${category.slug}`}>

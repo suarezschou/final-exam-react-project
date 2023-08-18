@@ -15,7 +15,7 @@ export async function getStaticProps() {
 export default function ProductsPage({ products }) {
     return (
         <React.Fragment>
-            <h1> Products </h1>
+            <h1 className="text-lg text-blue-600"> Products </h1>
 
             <ProductList products={products} />
         </React.Fragment>

@@ -37,7 +37,7 @@ export async function getStaticPaths(){
 export default function CategoryPage({category, products}) {
     return (
         <React.Fragment>
-            <h1>{category.name}</h1>
+            <h1 className="text-green-500 text-xl">{category.name}</h1>
 
             <ProductList products={products} />
         </React.Fragment>
