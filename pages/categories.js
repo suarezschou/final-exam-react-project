@@ -16,9 +16,15 @@ export async function getStaticProps() {
 export default function CategoriesPage({ categories }) {
     return (
         <React.Fragment>
+<<<<<<< Updated upstream
             <h1 className="text-lg text-blue-600"> Categories </h1>
+=======
+            <div className='flex flex-col justify-center py-10 bg-orange-300'>
+            <h1 className='text-2xl'> Categories </h1>
+>>>>>>> Stashed changes
 
             <CategoryList categories={categories} />
+            </div>
         </React.Fragment>
     );
 }
