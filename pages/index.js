@@ -1,5 +1,4 @@
 import'./_app'
-import commerce from '../lib/commerce'
 import commerce from '../lib/commerce';
 import ProductList from '../components/productList';
 import CategoryList from '../components/categoryList';
