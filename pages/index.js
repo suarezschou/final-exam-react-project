@@ -28,7 +28,7 @@ export default function Indexpage({merchant, categories, products}){
             <h1> {merchant.business_name} </h1>
             <h1 className="text-xl text-blue-600"> Andre Schou's Web shop </h1>
 
-            <h3 className='text-lg text-blue-600'>
+        
             <div className='flex flex-col justify-center py-10 bg-orange-300'>
             <h1 className='text-4xl'> Andre Schou's web shop </h1>
 
@@ -42,7 +42,7 @@ export default function Indexpage({merchant, categories, products}){
             <CategoryList categories={categories} />
             </h4>
 
-            <h3 className='text-lg text-blue-600'>
+        
             <h3 className='text-2xl'>
                 <Link legacyBehavior href="/products">
                     <a>Products</a>
