@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chec/commerce.js": "^2.8.0",
+    "@chec/commerce.js": "^1.0.0",
     "@types/node": "20.3.2",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "eslint": "8.43.0",
-    "eslint-config-next": "13.4.7",
-    "next": "13.4.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "eslint-config-next": "^14.0.2",
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "swr": "^2.2.0",
     "typescript": "5.1.5"
   },
